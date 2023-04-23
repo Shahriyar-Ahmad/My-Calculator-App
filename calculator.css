@@ -1,0 +1,139 @@
+h2 {
+    margin-top: 10px;
+
+}
+
+h2:hover {
+    color: orange;
+
+}
+
+.container {
+    text-align: center;
+    margin-top: 60px;
+    width: 15%;
+    height: auto;
+    background-color: black;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    text-shadow: 10px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+left: 40%;
+top: 20%;
+}
+
+input {
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 24px;
+    width: 70%;
+    color: white;
+    outline: invert;
+    background: transparent;
+    /* background-color: black;
+    color: white; */
+}
+
+table {
+    margin: auto;
+
+}
+
+button {
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2px;
+    cursor: pointer;
+    width: 40px;
+    font-size: 20px;
+    background-color: white;
+    font-weight: bold;
+
+}
+
+button:hover {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+.button2 {
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2px;
+    cursor: pointer;
+    width: 40px;
+    background-color: orange;
+    font-weight: bolder;
+
+}
+
+.button2:hover {
+    border: 2px solid orange;
+    background-color: black;
+    color: orange;
+}
+
+#btn {
+    height: 93px;
+}
+
+@media (min-width: 0px) and (max-width:400px) {
+.container {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+}
+@media (min-width: 0px) and (max-width:200px) {
+.container {
+    width: 70%; 
+    position: absolute;
+    left: 15%;
+}
+button{
+    width: 20px;
+    margin: 2px;
+    font-size: 10px;
+}
+}
+@media (min-width: 200px) and (max-width:400px) {
+.container {
+    width: 60%; 
+    position: absolute;
+    left: 21%;
+}
+}
+
+@media (min-width: 400px) and (max-width:550px) {
+.container {
+    width: 60%; 
+    position: absolute;
+    left: 15%;
+}
+}
+@media (min-width: 550px) and (max-width:700px) {
+.container {
+    width: 50%; 
+    position: absolute;
+    left: 15%;
+}
+}
+@media (min-width: 700px) and (max-width:1000px) {
+.container {
+    width: 40%; 
+    position: absolute;
+    left: 30%;
+}
+}
+
+@media (min-width: 1000px) and (max-width:1400px) {
+.container {
+    width: 20%;
+}
+}
