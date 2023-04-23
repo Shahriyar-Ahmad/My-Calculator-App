@@ -33,14 +33,14 @@ input {
     color: white;
     outline: invert;
     background: transparent;
-    /* background-color: black;
-    color: white; */
+    
 }
 
 table {
     margin: auto;
 
 }
+/* Button css */
 
 button {
     color: black;
@@ -82,6 +82,8 @@ button:hover {
 #btn {
     height: 93px;
 }
+
+/* Responsive the calculator app by media quarry */
 
 @media (min-width: 0px) and (max-width:400px) {
 .container {
